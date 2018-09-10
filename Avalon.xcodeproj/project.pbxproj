@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D4C196D20721ABB0087A4E5 /* QuestDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4C196C20721ABB0087A4E5 /* QuestDetailsView.swift */; };
+		3DBACC78206F4EC30011BA6F /* KeyValueSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBACC77206F4EC30011BA6F /* KeyValueSV.swift */; };
+		3DC67AD42071B7620067742C /* GameDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC67AD32071B7620067742C /* GameDetailsVC.swift */; };
+		3DE3E532206CB4600012C548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3E531206CB4600012C548 /* AppDelegate.swift */; };
+		3DE3E534206CB4600012C548 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3DE3E533206CB4600012C548 /* GameScene.sks */; };
+		3DE3E536206CB4600012C548 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3DE3E535206CB4600012C548 /* Actions.sks */; };
+		3DE3E538206CB4600012C548 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3E537206CB4600012C548 /* GameScene.swift */; };
+		3DE3E53A206CB4600012C548 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3E539206CB4600012C548 /* GameViewController.swift */; };
+		3DE3E53D206CB4600012C548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE3E53B206CB4600012C548 /* Main.storyboard */; };
+		3DE3E542206CB4600012C548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE3E540206CB4600012C548 /* LaunchScreen.storyboard */; };
+		3DE3E54D206CB4600012C548 /* AvalonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3E54C206CB4600012C548 /* AvalonTests.swift */; };
+		3DE3E558206CB4600012C548 /* AvalonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3E557206CB4600012C548 /* AvalonUITests.swift */; };
+		3DE3E567206CB9550012C548 /* UncialAntiqua-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DE3E566206CB9550012C548 /* UncialAntiqua-Regular.ttf */; };
+		3DE3E56A206CC2F70012C548 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3E569206CC2F70012C548 /* MainVC.swift */; };
+		3DE3E56C206CC37F0012C548 /* GameSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3E56B206CC37F0012C548 /* GameSettingVC.swift */; };
+		3DE3E56E206CCA0D0012C548 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3E56D206CCA0D0012C548 /* GameData.swift */; };
+		3DE3E574206D0CB10012C548 /* AvalonInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DE3E573206D0CB10012C548 /* AvalonInfo.plist */; };
+		3DE3E576206D22160012C548 /* AvalonCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3E575206D22160012C548 /* AvalonCharacter.swift */; };
+		3DE3E578206D29CA0012C548 /* Quest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3E577206D29CA0012C548 /* Quest.swift */; };
+		3DE3E57D206D48770012C548 /* AvalonInfoReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3E57C206D48770012C548 /* AvalonInfoReader.swift */; };
+		3DFD6FCF206DD3E6003CE7A6 /* CharacterCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD6FCE206DD3E6003CE7A6 /* CharacterCVCell.swift */; };
+		3DFD6FD6206DF836003CE7A6 /* Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD6FD5206DF836003CE7A6 /* Rule.swift */; };
+		3DFD6FD8206E5AE3003CE7A6 /* ModalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD6FD7206E5AE3003CE7A6 /* ModalVC.swift */; };
+		3DFD6FDA206E6653003CE7A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFD6FD9206E6652003CE7A6 /* Assets.xcassets */; };
+		3DFD6FDC206E6792003CE7A6 /* DeBalmeInitials.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DFD6FDB206E6792003CE7A6 /* DeBalmeInitials.ttf */; };
+		3DFD6FE1206E69D4003CE7A6 /* VTCGoblinHandSC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DFD6FDD206E69D3003CE7A6 /* VTCGoblinHandSC.ttf */; };
+		3DFD6FE2206E69D4003CE7A6 /* VTCGoblinHandBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DFD6FDE206E69D3003CE7A6 /* VTCGoblinHandBold.ttf */; };
+		3DFD6FE3206E69D4003CE7A6 /* VTCGoblinHandItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DFD6FDF206E69D3003CE7A6 /* VTCGoblinHandItalic.ttf */; };
+		3DFD6FE4206E69D4003CE7A6 /* VTCGoblinHand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DFD6FE0206E69D4003CE7A6 /* VTCGoblinHand.ttf */; };
+		3DFD6FE8206E6A28003CE7A6 /* XIPARS2U.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DFD6FE7206E6A28003CE7A6 /* XIPARS2U.ttf */; };
+		3DFD6FEA206E7520003CE7A6 /* CreatePlayersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD6FE9206E7520003CE7A6 /* CreatePlayersVC.swift */; };
+		3DFD6FEC206E8D25003CE7A6 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD6FEB206E8D25003CE7A6 /* Player.swift */; };
+		3DFD6FEE206E925F003CE7A6 /* AssignCharacterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD6FED206E925F003CE7A6 /* AssignCharacterVC.swift */; };
+		3DFD6FF0206E9405003CE7A6 /* PlayerInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DFD6FEF206E9405003CE7A6 /* PlayerInfo.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DE3E549206CB4600012C548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DE3E526206CB4600012C548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DE3E52D206CB4600012C548;
+			remoteInfo = Avalon;
+		};
+		3DE3E554206CB4600012C548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DE3E526206CB4600012C548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DE3E52D206CB4600012C548;
+			remoteInfo = Avalon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D4C196C20721ABB0087A4E5 /* QuestDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestDetailsView.swift; sourceTree = "<group>"; };
+		3DBACC77206F4EC30011BA6F /* KeyValueSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValueSV.swift; sourceTree = "<group>"; };
+		3DC67AD32071B7620067742C /* GameDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailsVC.swift; sourceTree = "<group>"; };
+		3DE3E52E206CB4600012C548 /* Avalon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avalon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE3E531206CB4600012C548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DE3E533206CB4600012C548 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		3DE3E535206CB4600012C548 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		3DE3E537206CB4600012C548 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		3DE3E539206CB4600012C548 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		3DE3E53C206CB4600012C548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DE3E541206CB4600012C548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DE3E543206CB4600012C548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DE3E548206CB4600012C548 /* AvalonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvalonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE3E54C206CB4600012C548 /* AvalonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvalonTests.swift; sourceTree = "<group>"; };
+		3DE3E54E206CB4600012C548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DE3E553206CB4600012C548 /* AvalonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvalonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE3E557206CB4600012C548 /* AvalonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvalonUITests.swift; sourceTree = "<group>"; };
+		3DE3E559206CB4600012C548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DE3E566206CB9550012C548 /* UncialAntiqua-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "UncialAntiqua-Regular.ttf"; path = "../../../../../Downloads/uncial-antiqua/UncialAntiqua-Regular.ttf"; sourceTree = "<group>"; };
+		3DE3E569206CC2F70012C548 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		3DE3E56B206CC37F0012C548 /* GameSettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettingVC.swift; sourceTree = "<group>"; };
+		3DE3E56D206CCA0D0012C548 /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		3DE3E573206D0CB10012C548 /* AvalonInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AvalonInfo.plist; sourceTree = "<group>"; };
+		3DE3E575206D22160012C548 /* AvalonCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvalonCharacter.swift; sourceTree = "<group>"; };
+		3DE3E577206D29CA0012C548 /* Quest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quest.swift; sourceTree = "<group>"; };
+		3DE3E57C206D48770012C548 /* AvalonInfoReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvalonInfoReader.swift; sourceTree = "<group>"; };
+		3DFD6FCE206DD3E6003CE7A6 /* CharacterCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCVCell.swift; sourceTree = "<group>"; };
+		3DFD6FD5206DF836003CE7A6 /* Rule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rule.swift; sourceTree = "<group>"; };
+		3DFD6FD7206E5AE3003CE7A6 /* ModalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalVC.swift; sourceTree = "<group>"; };
+		3DFD6FD9206E6652003CE7A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DFD6FDB206E6792003CE7A6 /* DeBalmeInitials.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DeBalmeInitials.ttf; sourceTree = "<group>"; };
+		3DFD6FDD206E69D3003CE7A6 /* VTCGoblinHandSC.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VTCGoblinHandSC.ttf; sourceTree = "<group>"; };
+		3DFD6FDE206E69D3003CE7A6 /* VTCGoblinHandBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VTCGoblinHandBold.ttf; sourceTree = "<group>"; };
+		3DFD6FDF206E69D3003CE7A6 /* VTCGoblinHandItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VTCGoblinHandItalic.ttf; sourceTree = "<group>"; };
+		3DFD6FE0206E69D4003CE7A6 /* VTCGoblinHand.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VTCGoblinHand.ttf; sourceTree = "<group>"; };
+		3DFD6FE7206E6A28003CE7A6 /* XIPARS2U.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = XIPARS2U.ttf; sourceTree = "<group>"; };
+		3DFD6FE9206E7520003CE7A6 /* CreatePlayersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePlayersVC.swift; sourceTree = "<group>"; };
+		3DFD6FEB206E8D25003CE7A6 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		3DFD6FED206E925F003CE7A6 /* AssignCharacterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignCharacterVC.swift; sourceTree = "<group>"; };
+		3DFD6FEF206E9405003CE7A6 /* PlayerInfo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerInfo.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DE3E52B206CB4600012C548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE3E545206CB4600012C548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE3E550206CB4600012C548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DE3E525206CB4600012C548 = {
+			isa = PBXGroup;
+			children = (
+				3DE3E530206CB4600012C548 /* Avalon */,
+				3DE3E54B206CB4600012C548 /* AvalonTests */,
+				3DE3E556206CB4600012C548 /* AvalonUITests */,
+				3DE3E52F206CB4600012C548 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DE3E52F206CB4600012C548 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DE3E52E206CB4600012C548 /* Avalon.app */,
+				3DE3E548206CB4600012C548 /* AvalonTests.xctest */,
+				3DE3E553206CB4600012C548 /* AvalonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DE3E530206CB4600012C548 /* Avalon */ = {
+			isa = PBXGroup;
+			children = (
+				3DFD6FD9206E6652003CE7A6 /* Assets.xcassets */,
+				3DFD6FD4206DF713003CE7A6 /* objects */,
+				3DFD6FCD206DD3A2003CE7A6 /* classes */,
+				3DE3E579206D42E90012C548 /* views */,
+				3DE3E568206CC2AD0012C548 /* controllers */,
+				3DE3E565206CB9220012C548 /* font */,
+				3DE3E531206CB4600012C548 /* AppDelegate.swift */,
+				3DE3E533206CB4600012C548 /* GameScene.sks */,
+				3DE3E535206CB4600012C548 /* Actions.sks */,
+				3DE3E537206CB4600012C548 /* GameScene.swift */,
+				3DE3E539206CB4600012C548 /* GameViewController.swift */,
+				3DE3E53B206CB4600012C548 /* Main.storyboard */,
+				3DE3E540206CB4600012C548 /* LaunchScreen.storyboard */,
+				3DE3E543206CB4600012C548 /* Info.plist */,
+				3DE3E573206D0CB10012C548 /* AvalonInfo.plist */,
+				3DE3E57C206D48770012C548 /* AvalonInfoReader.swift */,
+			);
+			path = Avalon;
+			sourceTree = "<group>";
+		};
+		3DE3E54B206CB4600012C548 /* AvalonTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DE3E54C206CB4600012C548 /* AvalonTests.swift */,
+				3DE3E54E206CB4600012C548 /* Info.plist */,
+			);
+			path = AvalonTests;
+			sourceTree = "<group>";
+		};
+		3DE3E556206CB4600012C548 /* AvalonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DE3E557206CB4600012C548 /* AvalonUITests.swift */,
+				3DE3E559206CB4600012C548 /* Info.plist */,
+			);
+			path = AvalonUITests;
+			sourceTree = "<group>";
+		};
+		3DE3E565206CB9220012C548 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				3DFD6FE7206E6A28003CE7A6 /* XIPARS2U.ttf */,
+				3DFD6FE0206E69D4003CE7A6 /* VTCGoblinHand.ttf */,
+				3DFD6FDE206E69D3003CE7A6 /* VTCGoblinHandBold.ttf */,
+				3DFD6FDF206E69D3003CE7A6 /* VTCGoblinHandItalic.ttf */,
+				3DFD6FDD206E69D3003CE7A6 /* VTCGoblinHandSC.ttf */,
+				3DFD6FDB206E6792003CE7A6 /* DeBalmeInitials.ttf */,
+				3DE3E566206CB9550012C548 /* UncialAntiqua-Regular.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		3DE3E568206CC2AD0012C548 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3DE3E569206CC2F70012C548 /* MainVC.swift */,
+				3DE3E56B206CC37F0012C548 /* GameSettingVC.swift */,
+				3DFD6FD7206E5AE3003CE7A6 /* ModalVC.swift */,
+				3DFD6FE9206E7520003CE7A6 /* CreatePlayersVC.swift */,
+				3DFD6FED206E925F003CE7A6 /* AssignCharacterVC.swift */,
+				3DC67AD32071B7620067742C /* GameDetailsVC.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		3DE3E579206D42E90012C548 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				3DFD6FEF206E9405003CE7A6 /* PlayerInfo.xib */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		3DFD6FCD206DD3A2003CE7A6 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				3DFD6FCE206DD3E6003CE7A6 /* CharacterCVCell.swift */,
+				3DBACC77206F4EC30011BA6F /* KeyValueSV.swift */,
+				3D4C196C20721ABB0087A4E5 /* QuestDetailsView.swift */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		3DFD6FD4206DF713003CE7A6 /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				3DE3E56D206CCA0D0012C548 /* GameData.swift */,
+				3DE3E577206D29CA0012C548 /* Quest.swift */,
+				3DE3E575206D22160012C548 /* AvalonCharacter.swift */,
+				3DFD6FD5206DF836003CE7A6 /* Rule.swift */,
+				3DFD6FEB206E8D25003CE7A6 /* Player.swift */,
+			);
+			path = objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DE3E52D206CB4600012C548 /* Avalon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DE3E55C206CB4600012C548 /* Build configuration list for PBXNativeTarget "Avalon" */;
+			buildPhases = (
+				3DE3E52A206CB4600012C548 /* Sources */,
+				3DE3E52B206CB4600012C548 /* Frameworks */,
+				3DE3E52C206CB4600012C548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Avalon;
+			productName = Avalon;
+			productReference = 3DE3E52E206CB4600012C548 /* Avalon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DE3E547206CB4600012C548 /* AvalonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DE3E55F206CB4600012C548 /* Build configuration list for PBXNativeTarget "AvalonTests" */;
+			buildPhases = (
+				3DE3E544206CB4600012C548 /* Sources */,
+				3DE3E545206CB4600012C548 /* Frameworks */,
+				3DE3E546206CB4600012C548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DE3E54A206CB4600012C548 /* PBXTargetDependency */,
+			);
+			name = AvalonTests;
+			productName = AvalonTests;
+			productReference = 3DE3E548206CB4600012C548 /* AvalonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DE3E552206CB4600012C548 /* AvalonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DE3E562206CB4600012C548 /* Build configuration list for PBXNativeTarget "AvalonUITests" */;
+			buildPhases = (
+				3DE3E54F206CB4600012C548 /* Sources */,
+				3DE3E550206CB4600012C548 /* Frameworks */,
+				3DE3E551206CB4600012C548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DE3E555206CB4600012C548 /* PBXTargetDependency */,
+			);
+			name = AvalonUITests;
+			productName = AvalonUITests;
+			productReference = 3DE3E553206CB4600012C548 /* AvalonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DE3E526206CB4600012C548 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Zairah Mae J Ylagan";
+				TargetAttributes = {
+					3DE3E52D206CB4600012C548 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3DE3E547206CB4600012C548 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3DE3E52D206CB4600012C548;
+					};
+					3DE3E552206CB4600012C548 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3DE3E52D206CB4600012C548;
+					};
+				};
+			};
+			buildConfigurationList = 3DE3E529206CB4600012C548 /* Build configuration list for PBXProject "Avalon" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DE3E525206CB4600012C548;
+			productRefGroup = 3DE3E52F206CB4600012C548 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DE3E52D206CB4600012C548 /* Avalon */,
+				3DE3E547206CB4600012C548 /* AvalonTests */,
+				3DE3E552206CB4600012C548 /* AvalonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DE3E52C206CB4600012C548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFD6FE8206E6A28003CE7A6 /* XIPARS2U.ttf in Resources */,
+				3DFD6FE2206E69D4003CE7A6 /* VTCGoblinHandBold.ttf in Resources */,
+				3DFD6FF0206E9405003CE7A6 /* PlayerInfo.xib in Resources */,
+				3DE3E53D206CB4600012C548 /* Main.storyboard in Resources */,
+				3DE3E567206CB9550012C548 /* UncialAntiqua-Regular.ttf in Resources */,
+				3DE3E534206CB4600012C548 /* GameScene.sks in Resources */,
+				3DE3E574206D0CB10012C548 /* AvalonInfo.plist in Resources */,
+				3DE3E542206CB4600012C548 /* LaunchScreen.storyboard in Resources */,
+				3DFD6FE1206E69D4003CE7A6 /* VTCGoblinHandSC.ttf in Resources */,
+				3DFD6FE3206E69D4003CE7A6 /* VTCGoblinHandItalic.ttf in Resources */,
+				3DFD6FE4206E69D4003CE7A6 /* VTCGoblinHand.ttf in Resources */,
+				3DFD6FDA206E6653003CE7A6 /* Assets.xcassets in Resources */,
+				3DFD6FDC206E6792003CE7A6 /* DeBalmeInitials.ttf in Resources */,
+				3DE3E536206CB4600012C548 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE3E546206CB4600012C548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE3E551206CB4600012C548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DE3E52A206CB4600012C548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFD6FCF206DD3E6003CE7A6 /* CharacterCVCell.swift in Sources */,
+				3DE3E57D206D48770012C548 /* AvalonInfoReader.swift in Sources */,
+				3DE3E578206D29CA0012C548 /* Quest.swift in Sources */,
+				3DE3E56C206CC37F0012C548 /* GameSettingVC.swift in Sources */,
+				3DFD6FEC206E8D25003CE7A6 /* Player.swift in Sources */,
+				3DFD6FEA206E7520003CE7A6 /* CreatePlayersVC.swift in Sources */,
+				3DE3E56E206CCA0D0012C548 /* GameData.swift in Sources */,
+				3DE3E538206CB4600012C548 /* GameScene.swift in Sources */,
+				3DE3E576206D22160012C548 /* AvalonCharacter.swift in Sources */,
+				3DE3E53A206CB4600012C548 /* GameViewController.swift in Sources */,
+				3DBACC78206F4EC30011BA6F /* KeyValueSV.swift in Sources */,
+				3DFD6FD6206DF836003CE7A6 /* Rule.swift in Sources */,
+				3DE3E532206CB4600012C548 /* AppDelegate.swift in Sources */,
+				3DC67AD42071B7620067742C /* GameDetailsVC.swift in Sources */,
+				3DFD6FD8206E5AE3003CE7A6 /* ModalVC.swift in Sources */,
+				3DE3E56A206CC2F70012C548 /* MainVC.swift in Sources */,
+				3D4C196D20721ABB0087A4E5 /* QuestDetailsView.swift in Sources */,
+				3DFD6FEE206E925F003CE7A6 /* AssignCharacterVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE3E544206CB4600012C548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE3E54D206CB4600012C548 /* AvalonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE3E54F206CB4600012C548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE3E558206CB4600012C548 /* AvalonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DE3E54A206CB4600012C548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DE3E52D206CB4600012C548 /* Avalon */;
+			targetProxy = 3DE3E549206CB4600012C548 /* PBXContainerItemProxy */;
+		};
+		3DE3E555206CB4600012C548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DE3E52D206CB4600012C548 /* Avalon */;
+			targetProxy = 3DE3E554206CB4600012C548 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DE3E53B206CB4600012C548 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DE3E53C206CB4600012C548 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DE3E540206CB4600012C548 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DE3E541206CB4600012C548 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DE3E55A206CB4600012C548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DE3E55B206CB4600012C548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DE3E55D206CB4600012C548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Avalon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zairahjy.Avalon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DE3E55E206CB4600012C548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Avalon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zairahjy.Avalon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DE3E560206CB4600012C548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AvalonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zairahjy.AvalonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Avalon.app/Avalon";
+			};
+			name = Debug;
+		};
+		3DE3E561206CB4600012C548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AvalonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zairahjy.AvalonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Avalon.app/Avalon";
+			};
+			name = Release;
+		};
+		3DE3E563206CB4600012C548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AvalonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zairahjy.AvalonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Avalon;
+			};
+			name = Debug;
+		};
+		3DE3E564206CB4600012C548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AvalonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zairahjy.AvalonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Avalon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DE3E529206CB4600012C548 /* Build configuration list for PBXProject "Avalon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DE3E55A206CB4600012C548 /* Debug */,
+				3DE3E55B206CB4600012C548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DE3E55C206CB4600012C548 /* Build configuration list for PBXNativeTarget "Avalon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DE3E55D206CB4600012C548 /* Debug */,
+				3DE3E55E206CB4600012C548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DE3E55F206CB4600012C548 /* Build configuration list for PBXNativeTarget "AvalonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DE3E560206CB4600012C548 /* Debug */,
+				3DE3E561206CB4600012C548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DE3E562206CB4600012C548 /* Build configuration list for PBXNativeTarget "AvalonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DE3E563206CB4600012C548 /* Debug */,
+				3DE3E564206CB4600012C548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DE3E526206CB4600012C548 /* Project object */;
+}
